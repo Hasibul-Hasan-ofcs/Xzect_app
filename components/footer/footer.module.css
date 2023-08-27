@@ -1,0 +1,101 @@
+.footer {
+  background: #f7f9fa;
+  min-height: 100px;
+}
+
+.description_contact_box {
+  width: 50%;
+  box-sizing: border-box;
+  padding-right: 50px;
+}
+
+._header {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(10, 8, 59);
+  line-height: 2.7rem;
+}
+
+.description_contact_box .footerDescription1,
+.description_contact_box .footerDescription2 {
+  text-align: justify;
+  line-height: 1.75rem;
+}
+
+.contact_data {
+  color: rgb(87, 88, 110);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.courses {
+  width: 33%;
+  box-sizing: border-box;
+  padding-right: 50px;
+}
+
+.about {
+  width: 17%;
+  box-sizing: border-box;
+  padding-right: 50px;
+}
+
+.mainLogo {
+  height: auto;
+  width: 235px;
+}
+
+.footer_content {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 100%; */
+  /* gap: 20px; */
+}
+
+.copyright {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+  .description_contact_box {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .courses {
+    width: 50%;
+    box-sizing: border-box;
+  }
+  .about {
+    width: 50%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer_content {
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+  .courses {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .about {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .copyright {
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+}
