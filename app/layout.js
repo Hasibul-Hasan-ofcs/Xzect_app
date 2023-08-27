@@ -22,10 +22,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <ContextProvider>
         <body suppressHydrationWarning={true} className={roboto.className}>
-          {/* <Drawer></Drawer> */}
-          <NavBar></NavBar>
-          {/* {children} */}
-          {/* <Footer></Footer> */}
+          <Drawer></Drawer>
+          {/* <NavBar></NavBar> */}
+          {children}
+          <Footer></Footer>
         </body>
       </ContextProvider>
     </html>
