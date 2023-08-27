@@ -6,7 +6,7 @@ import NavBar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
 
 const roboto = Roboto({
-  weight: ["400", "700"],
+  weight: ["100", "300", "400", "500", "700", "900"],
   style: ["normal", "italic"],
   subsets: ["latin"],
   display: "swap",

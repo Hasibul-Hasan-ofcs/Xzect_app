@@ -1,13 +1,11 @@
 "use client";
-import { useEffect } from "react";
 import styles from "./page.module.css";
-import { useRouter } from "next/navigation";
+import Certification from "@/components/certification/Certification";
 
 export default function Home() {
-  // useEffect(() => {
-  //   const router = useRouter();
-  //   router.push("/course");
-  // }, []);
-
-  return <main className={styles.main}></main>;
+  return (
+    <main className={styles.main}>
+      <Certification></Certification>
+    </main>
+  );
 }
