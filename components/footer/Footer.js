@@ -4,7 +4,6 @@ import Image from "next/image";
 import {
   aboutFooterData,
   coursesFooterData,
-  footerDescription,
   footerDescription1,
   footerDescription2,
 } from "@/constants";
@@ -38,13 +37,13 @@ const Footer = () => {
 
         <div className={style.courses}>
           <p className={style._header}>Courses</p>
-          {coursesFooterData.arr.map((el, indx) => (
+          {coursesFooterData?.arr?.map((el, indx) => (
             <p key={indx}>{el}</p>
           ))}
         </div>
         <div className={style.about}>
           <p className={style._header}>About</p>
-          {aboutFooterData.arr.map((el, indx) => (
+          {aboutFooterData?.arr?.map((el, indx) => (
             <p key={indx}>{el}</p>
           ))}
         </div>
