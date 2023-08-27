@@ -1,0 +1,25 @@
+.certification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.h1,
+.p {
+  text-align: center;
+  margin: 0;
+}
+
+.certificate {
+  width: 768px;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .certificate {
+    width: 100%;
+  }
+}

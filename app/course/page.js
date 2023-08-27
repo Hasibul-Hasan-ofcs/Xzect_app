@@ -1,7 +1,12 @@
+import Certification from "@/components/certification/Certification";
 import React from "react";
 
 const page = () => {
-  return <div>This is th course page</div>;
+  return (
+    <>
+      <Certification></Certification>
+    </>
+  );
 };
 
 export default page;

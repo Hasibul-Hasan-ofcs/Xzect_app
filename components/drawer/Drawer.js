@@ -2,7 +2,7 @@
 import React, { useContext } from "react";
 import style from "./drawer.module.css";
 import { MainContext } from "@/providers/ContextProvider";
-import { RxCross1, RxExit } from "react-icons/rx";
+import { RxCross1 } from "react-icons/rx";
 import Link from "next/link";
 
 const Drawer = () => {
