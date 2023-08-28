@@ -16,18 +16,6 @@
   padding-right: 10px;
 }
 
-@media (max-width: 1200px) {
-  .perks_card_box {
-    width: 50%;
-  }
-}
-
-@media (max-width: 800px) {
-  .perks_card_box {
-    width: 100%;
-  }
-}
-
 .perks_card_box:first-child {
   padding-right: 10px;
 }
@@ -72,4 +60,20 @@
 
 .lower_portion {
   padding: 10px;
+}
+
+@media (max-width: 1200px) {
+  .perks_card_box {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .perks_card_box {
+    width: 100%;
+  }
+
+  .perks_box {
+    padding: 50px 20px;
+  }
 }
