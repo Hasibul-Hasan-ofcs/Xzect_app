@@ -40,6 +40,16 @@
   padding-right: 50px;
 }
 
+.link_p {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.link_p:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
 .mainLogo {
   height: auto;
   width: 235px;

@@ -7,6 +7,7 @@ import {
   footerDescription1,
   footerDescription2,
 } from "@/constants";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -38,13 +39,21 @@ const Footer = () => {
         <div className={style.courses}>
           <p className={style._header}>Courses</p>
           {coursesFooterData?.arr?.map((el, indx) => (
-            <p key={indx}>{el}</p>
+            <p key={indx}>
+              <Link href="" className={style.link_p}>
+                {el}
+              </Link>
+            </p>
           ))}
         </div>
         <div className={style.about}>
           <p className={style._header}>About</p>
           {aboutFooterData?.arr?.map((el, indx) => (
-            <p key={indx}>{el}</p>
+            <p key={indx}>
+              <Link href="" className={style.link_p}>
+                {el}
+              </Link>
+            </p>
           ))}
         </div>
       </div>

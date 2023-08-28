@@ -1,6 +1,9 @@
 .perks_box {
   display: flex;
-  padding: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 50px;

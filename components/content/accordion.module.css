@@ -1,0 +1,26 @@
+.accordion_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.left_portion {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left_portion .icon {
+  color: rgba(33, 35, 39, 0.5);
+  font-size: 20px;
+}
+
+.left_portion p {
+  margin: 0;
+}
+
+.right_portion {
+  color: rgba(33, 35, 39, 0.5);
+  font-size: 20px;
+}

@@ -1,0 +1,147 @@
+.content_main {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.heading_text {
+  color: rgb(33, 35, 39);
+}
+
+.course_heading {
+  font-size: 32px;
+}
+
+.course_by {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left_portion {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.left_portion img {
+  height: 36px;
+  border-radius: 50px;
+}
+
+.right_portion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.right_portion p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* main content */
+
+.main_content_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.main_content_wrapper .left_main {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  box-sizing: border-box;
+  padding-right: 30px;
+  min-height: 100px;
+}
+
+.main_content_wrapper .right_main {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  box-sizing: border-box;
+  background: #000;
+  min-height: 100px;
+}
+
+.main_content_wrapper .left_main .course_img {
+  width: 100%;
+  height: auto;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.offer_price {
+  color: rgb(33, 35, 39);
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.original_price {
+  font-size: 14px;
+  text-decoration: line-through;
+  padding-top: 5px;
+}
+
+.course_status {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.course_status span {
+  font-size: 20px;
+}
+
+.add_cart_btn_wrapper {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add_cart_btn {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-color: #395bca;
+  width: 400px;
+  border-radius: 6px;
+  background-color: #3e64de;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.add_cart_btn:hover {
+  background-color: #395bca;
+}
+
+.learn_stack {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stack1,
+.stack2,
+.stack3 {
+  line-height: 35px;
+  width: 100/3;
+}
+
+@media (max-width: 400px) {
+  .add_cart_btn {
+    width: 300px;
+  }
+}

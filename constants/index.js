@@ -70,3 +70,164 @@ export const perksData = [
     img: <BsBarChartFill></BsBarChartFill>,
   },
 ];
+
+export const aboutCourseData = {
+  str: "Get ready for a year-long journey into the exciting world of web development with our Full Stack Web Development Training. Designed for students like you, this program will take you from the foundations of HTML, CSS, and JavaScript to mastering advanced technologies like ReactJS, NodeJS, databases, and server management. This curriculum is designed to provide you with a solid foundation and the advanced knowledge needed to excel in the rapidly evolving field of technology. As you progress through each module, you’ll engage in hands-on projects, interactive classes, and gain practical experience that will set you apart as a skilled and proficient full stack developer. Upon successful completion, you’ll receive an internship certificate, validating your expertise and preparing you for a successful career in the dynamic world of web development.",
+};
+
+export const learn_stacks = {
+  stack1: [
+    "HTML",
+    "Tailwind",
+    "JQuery",
+    "NodeJS",
+    "Linux",
+    "Git",
+    "Hosting on CPanel",
+    "Email Setup (MX Record)",
+  ],
+  stack2: [
+    "CSS",
+    "Sass",
+    "ReactJS + NextJS",
+    "MySQL",
+    "Nginx",
+    "Docker",
+    "SSL",
+    "Chrome Extension",
+  ],
+  stack3: [
+    "Bootstrap",
+    "Javascript",
+    "PWA",
+    "MongoDB",
+    "Apache",
+    "AWS / GCP / Azure",
+    "Domain Setup (DNS)",
+    "Chat-GPT use in Coding",
+  ],
+};
+
+export const course_content = [
+  {
+    title: "Web Fundamentals",
+    contents: [
+      "Introduction to Web Development",
+      "HTML5: Tags, attributes, and semantic elements",
+      "Basic CSS styling and layout",
+    ],
+  },
+  {
+    title: "Advanced CSS and Responsive Design",
+    contents: [
+      "In-depth study of CSS selectors, properties, and values",
+      "Box model and layout techniques",
+      "Flexbox and CSS Grid layout",
+      "Creating responsive designs with media queries",
+      "Introduction to Bootstrap framework",
+      "In-depth study of Bootstrap framework",
+      "Introduction to Tailwind CSS",
+      "Building responsive and attractive UIs",
+      "Design systems and UI/UX principles",
+      "Animation and transitions with CSS",
+    ],
+  },
+  {
+    title: "JavaScript Fundamentals",
+    contents: [
+      "Introduction to JavaScript programming",
+      "Working with variables, data types, and operators",
+      "Control structures: Conditional statements and loops",
+      "Functions, scope, and closures",
+      "Manipulating arrays and objects",
+    ],
+  },
+  {
+    title: "Advanced Javascript and JQuery",
+    contents: [
+      "Understanding the Document Object Model (DOM)",
+      "Manipulating the DOM with JavaScript",
+      "Introduction to jQuery library",
+      "ES6+ features: Arrow functions, template literals, destructuring",
+      "Asynchronous programming: Promises and async/await",
+      "Fetch API for making HTTP requests",
+      "Working with JSON data",
+    ],
+  },
+  {
+    title: "Modern Frontend Development",
+    contents: [
+      "Introduction to ReactJS and its concepts",
+      "Building dynamic and interactive user interfaces",
+      "State Management and Hooks",
+      "React Router and Navigation",
+      "Advanced React and Next.js Fundamentals",
+      "Data Fetching in Next.js",
+      "Rendering Methods in NextJS: SSR, SSG, CSR, etc.",
+      "Styling and Layout in React and Next.js",
+      "Forms and User Input",
+      "State Management and Redux",
+      "Testing and Debugging React and Next.js Apps",
+    ],
+  },
+  {
+    title: "Node.js and Express.js",
+    contents: [
+      "Introduction to server-side programming with Node.js",
+      "Building RESTful APIs with Express.js",
+      "Middleware, request handling, and routing",
+      "File uploading and storage using Node.js",
+      "Using third-party APIs in Node.js applications",
+    ],
+  },
+  {
+    title: "Databases - Relational and SQL",
+    contents: [
+      "Basics of relational databases and data modeling",
+      "Writing SQL queries for data manipulation and retrieval",
+      "Database normalization and performance optimization",
+      "Advanced SQL techniques: Joins and subqueries",
+      "Transactions and ACID properties in databases",
+    ],
+  },
+  {
+    title: "Databases - NoSQL and Authentication",
+    contents: [
+      "Introduction to NoSQL databases: MongoDB and document-based data",
+      "Schema design, CRUD operations, and indexing with MongoDB",
+      "User authentication and authorization strategies",
+      "Using JWT for token-based authentication",
+      "Handling user sessions and cookies",
+    ],
+  },
+  {
+    title: "Backend Development - API and Security",
+    contents: [
+      "Building secure APIs with authentication and authorization",
+      "Input validation, data sanitization, and security best practices",
+      "Implementing OAuth for third-party authentication",
+      "Rate limiting and API throttling",
+      "API documentation",
+      "Payment Gateway Integration",
+    ],
+  },
+  {
+    title: "Deployment and DevOps",
+    contents: [
+      "Introduction to version control with Git and GitHub",
+      "Deploying applications using Nginx or Apache",
+      "Continuous Integration and Continuous Deployment (CI/CD) pipelines",
+      "Introduction to Docker for containerization",
+      "Load balancing and auto-scaling in cloud environments",
+    ],
+  },
+  {
+    title: "Cloud Services and Hosting",
+    contents: [
+      "Hosting and scaling applications on cloud platforms: AWS, GCP, or Azure",
+      "Serverless computing and AWS Lambda functions",
+      "Setting up CI/CD pipelines for automated deployment",
+      "Web hosting management using cPanel, SSL certificates, and domain setup",
+    ],
+  },
+];
