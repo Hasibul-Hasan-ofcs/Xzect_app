@@ -1,3 +1,7 @@
+import { BsBarChartFill, BsFillCollectionPlayFill } from "react-icons/bs";
+import { BiSupport } from "react-icons/bi";
+import { AiFillSafetyCertificate } from "react-icons/ai";
+
 export const footerDescription1 = {
   str: "Xzect goes beyond providing services - we're committed to empowering both businesses and individuals through our diverse range of Services. We also provides Courses and Trainings. Delve into the world of technology and innovation with our specialized training offerings, designed to enhance your skills and open new avenues of growth. Our courses cover a wide spectrum of cutting-edge fields, including software development, website design, SEO strategies, cloud solutions, robotics and automation, 3D printing and prototyping, data science and analytics, AI and machine learning, IoT applications, AR and VR experiences, blockchain technology, and more.",
 };
@@ -39,3 +43,30 @@ export const aboutFooterData = {
     "Careers",
   ],
 };
+
+export const perksData = [
+  {
+    title: "Live Sessions Recordings​",
+    description:
+      "Access recordings of all live sessions, ensuring you never miss a class and can review concepts at your own pace.",
+    img: <BsFillCollectionPlayFill></BsFillCollectionPlayFill>,
+  },
+  {
+    title: "Doubt Clearing Support",
+    description:
+      "Get dedicated doubt clearing sessions to address any questions and clarify concepts for a thorough understanding.",
+    img: <BiSupport></BiSupport>,
+  },
+  {
+    title: "Training Certificate",
+    description:
+      "Earn a valuable training certificate upon successful completion, boosting your resume and demonstrating practical skills.",
+    img: <AiFillSafetyCertificate></AiFillSafetyCertificate>,
+  },
+  {
+    title: "Career Assistance",
+    description:
+      "Receive guidance and support for your career journey, including resume building and interview preparation.",
+    img: <BsBarChartFill></BsBarChartFill>,
+  },
+];
