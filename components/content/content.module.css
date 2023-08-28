@@ -140,6 +140,20 @@
   width: 100/3;
 }
 
+@media (max-width: 1200px) {
+  .content_main {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .content_main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 @media (max-width: 400px) {
   .add_cart_btn {
     width: 300px;
