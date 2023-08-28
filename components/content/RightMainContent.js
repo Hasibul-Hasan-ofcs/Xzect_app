@@ -26,7 +26,7 @@ const RightMainContent = () => {
         <h3>{courseSuitability.title}</h3>
         <ul>
           {courseSuitability.list.map((el, indx) => (
-            <li>{el}</li>
+            <li key={indx}>{el}</li>
           ))}
         </ul>
       </div>
@@ -35,7 +35,7 @@ const RightMainContent = () => {
         <h3>{courseHighlights.title}</h3>
         <ul>
           {courseHighlights.list.map((el, indx) => (
-            <li>{el}</li>
+            <li key={indx}>{el}</li>
           ))}
         </ul>
       </div>
@@ -43,7 +43,7 @@ const RightMainContent = () => {
         <h3>{courseTimings.title}</h3>
         <ul>
           {courseTimings.list.map((el, indx) => (
-            <li>{el}</li>
+            <li key={indx}>{el}</li>
           ))}
         </ul>
       </div>
@@ -51,7 +51,7 @@ const RightMainContent = () => {
         <h3>{courseRequirements.title}</h3>
         <ul>
           {courseRequirements.list.map((el, indx) => (
-            <li>{el}</li>
+            <li key={indx}>{el}</li>
           ))}
         </ul>
       </div>
@@ -60,7 +60,9 @@ const RightMainContent = () => {
         <h3>{courseTags.title}</h3>
         <div>
           {courseTags.list.map((el, indx) => (
-            <Link href="">{el}</Link>
+            <Link key={indx} href="">
+              {el}
+            </Link>
           ))}
         </div>
       </div>

@@ -68,7 +68,7 @@
 }
 
 .login_btn:hover {
-  box-shadow: inset 100px 0 0 0 rgb(69, 125, 255);
+  box-shadow: inset 120px 0 0 0 rgb(69, 125, 255);
   color: white !important;
 }
 
