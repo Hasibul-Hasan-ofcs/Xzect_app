@@ -29,10 +29,18 @@ const NavBar = () => {
 
       <div className={style.nav_items}>
         <div className={style.non_sp_items}>
-          <Link href="">Blog</Link>
-          <Link href="">Xzect.com</Link>
-          <Link href="">Courses</Link>
-          <Link href="">Contact</Link>
+          <Link href="" className={style.a}>
+            Blog
+          </Link>
+          <Link href="" className={style.a}>
+            Xzect.com
+          </Link>
+          <Link href="" className={style.a}>
+            Courses
+          </Link>
+          <Link href="" className={style.a}>
+            Contact
+          </Link>
         </div>
         <Link href="" className={style.login_btn}>
           Login

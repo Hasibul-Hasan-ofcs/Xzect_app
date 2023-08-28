@@ -1,16 +1,11 @@
 import React from "react";
-import style from "./content.module.css";
+import style from "./css/content.module.css";
 import { GoBookmark } from "react-icons/go";
 import { PiShareFatLight } from "react-icons/pi";
 import { Poppins } from "next/font/google";
 import LeftMainContent from "./LeftMainContent";
-
-const poppins = Poppins({
-  weight: ["100", "300", "400", "500", "700", "900"],
-  style: ["normal", "italic"],
-  subsets: ["latin"],
-  display: "swap",
-});
+import RightMainContent from "./RightMainContent";
+import { poppins } from "@/font";
 
 const Content = () => {
   return (
@@ -44,7 +39,7 @@ const Content = () => {
       <div className={style.main_content_wrapper}>
         <LeftMainContent></LeftMainContent>
 
-        <div className={style.right_main}></div>
+        <RightMainContent></RightMainContent>
       </div>
     </div>
   );

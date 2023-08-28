@@ -41,9 +41,18 @@
   }
 }
 
-.nav_items a {
+.nav_items .a {
   text-decoration: none;
   color: rgb(87, 88, 110);
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  box-shadow: inset 0 0 0 0 rgb(69, 125, 255);
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.nav_items .a:hover {
+  box-shadow: inset 100px 0 0 0 rgb(69, 125, 255);
+  color: white;
 }
 
 .login_btn {
@@ -54,6 +63,13 @@
   border-radius: 50px;
   border: 1px solid rgb(69, 125, 255);
   color: rgb(69, 125, 255) !important;
+  box-shadow: inset 0 0 0 0 rgb(69, 125, 255);
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.login_btn:hover {
+  box-shadow: inset 100px 0 0 0 rgb(69, 125, 255);
+  color: white !important;
 }
 
 .hamburger {

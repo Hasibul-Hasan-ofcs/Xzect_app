@@ -7,7 +7,7 @@ import { course_content } from "@/constants";
 import React, { useState } from "react";
 import { AiOutlineLock } from "react-icons/ai";
 import { LuDisc } from "react-icons/lu";
-import style from "./accordion.module.css";
+import style from "./css/accordion.module.css";
 import { roboto } from "@/font";
 
 const AccordionComponent = () => {
@@ -29,9 +29,11 @@ const AccordionComponent = () => {
             transition: "all 0.5s linear",
             "&:hover": {
               border: "1px solid rgb(69, 125, 255)",
+              color: "rgb(69, 125, 255)",
             },
             "&:active": {
               border: "1px solid rgb(69, 125, 255)",
+              color: "rgb(69, 125, 255)",
             },
           }}
           // expanded={expanded === `panel${indx + 1}`}

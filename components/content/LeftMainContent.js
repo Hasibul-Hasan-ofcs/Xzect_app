@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./content.module.css";
+import style from "./css/content.module.css";
 import { aboutCourseData, learn_stacks } from "@/constants";
 import AccordionComponent from "./AccordionComponent";
 import { BsBarChart } from "react-icons/bs";

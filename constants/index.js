@@ -231,3 +231,55 @@ export const course_content = [
     ],
   },
 ];
+
+export const courseSuitability = {
+  title: "Course Suitable For",
+  list: [
+    "Recently Completed High School.",
+    "Undergraduates (B.Tech, BCA, MCA, B.VOC,)",
+    "Aspiring Developers",
+    "Tech Enthusiasts",
+  ],
+};
+
+export const courseHighlights = {
+  title: "Course Highlights",
+  list: [
+    "Live Interactive Sessions",
+    "Real-World Projects and Practical Use Cases",
+    "Industry Relevance",
+    "Doubt Clearing Expert Sessions",
+    "Career Assistance",
+    "Certificates",
+    "Resume and Portfolio Building",
+    "Training will Continue until you become a Full Stack Developer even after 12 months timeline is over",
+  ],
+};
+
+export const courseTimings = {
+  title: "Course Timings (IST)",
+  list: [
+    "Tentative Slots: You can choose any one slot. Link will be provided after course registration.",
+    "Sat & Sun: 7:00 PM - 9:00 PM",
+    "Tue & Thu: 2:00 AM - 4:00 PM",
+  ],
+};
+
+export const courseRequirements = {
+  title: "Requirements",
+  list: [
+    "Basic Computer Literacy (Familiarity with using a computer, browsing the internet, and using common software applications.)",
+    "A Laptop, PC or Mac with internet connectivity.",
+  ],
+};
+
+export const courseTags = {
+  title: "Tags",
+  list: [
+    "Certificate",
+    "Full Stack Development",
+    "Live Classes",
+    "Software",
+    "Student Discount",
+  ],
+};
